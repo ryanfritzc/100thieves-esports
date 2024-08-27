@@ -7,10 +7,10 @@ const style = {
 
 export default function Navbar() {
   return (
-    <nav className="bg-mainRed">
+    <nav className="bg-mainRed sticky top-0">
       <div className="flex justify-between items-center mx-auto md:px-8 lg:px-20 px-6 sm:py-6 py-3 c">
         <div className="flex-1">
-            <p style={style} className="w-fit cursor-pointer hover:text-black">Main Website</p>
+            <p style={style} className="w-fit cursor-pointer hover:text-black">Home</p>
         </div>
         <div style={style} className="cursor-pointer flex-shrink-0 hover:text-black">
             <svg
