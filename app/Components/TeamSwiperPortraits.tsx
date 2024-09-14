@@ -1,5 +1,3 @@
-"use client";
-
 interface TeamSwiperProps {
   image: string;
   name: string;

@@ -9,8 +9,8 @@ import TeamSwiperPortraits from "./Components/TeamSwiperPortraits";
 export default function Home() {
   return (
     <Swiper pagination={true} modules={[Pagination]}>
-      <SwiperSlide>
-        <div className="flex flex-wrap ">
+      <SwiperSlide className="swiperCod">
+        <div className="flex flex-wrap w-[80%]">
           <TeamSwiperPortraits
             image="/homepage/team-portraits/ghosty.png"
             name="GHOSTY"
@@ -29,7 +29,7 @@ export default function Home() {
           />
         </div>
       </SwiperSlide>
-      <SwiperSlide>
+      <SwiperSlide className="swiperLol">
       <div className="flex flex-wrap ">
           <TeamSwiperPortraits
             image="/homepage/team-portraits/quid.png"
@@ -57,7 +57,7 @@ export default function Home() {
           />
         </div>
       </SwiperSlide>
-      <SwiperSlide>
+      <SwiperSlide className="swiperVal">
       <div className="flex flex-wrap ">
           <TeamSwiperPortraits
             image="/homepage/team-portraits/asuna.png"
