@@ -1,11 +1,8 @@
-"use client";
-import Image from "next/image";
-
 const style = {
   transition: 'all 750ms cubic-bezier(.23,1,.32,1)'
 };
 
-export default function Navbar() {
+export default async function Navbar() {
   return (
     <nav className="bg-mainRed sticky top-0">
       <div className="flex justify-between items-center mx-auto md:px-8 lg:px-20 px-6 sm:py-6 py-3 c">

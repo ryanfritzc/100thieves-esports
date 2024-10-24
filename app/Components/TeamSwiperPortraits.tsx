@@ -3,7 +3,7 @@ interface TeamSwiperProps {
   name: string;
 }
 
-const TeamSwiperPortraits: React.FC<TeamSwiperProps> = ({image, name})=> {
+export default async function TeamSwiperPortraits({image, name}: TeamSwiperProps) {
   return (
       <div className="flex m-1 flex-col items-center w-[calc(50%-0.5rem)] md:w-[calc(33.33%-0.5rem)]">
         <img src={image} className="max-w-[150px] max-h-[125px] md:max-w-[600px] md:max-h-[305px]"/>
@@ -11,4 +11,3 @@ const TeamSwiperPortraits: React.FC<TeamSwiperProps> = ({image, name})=> {
       </div>
   );
 }
-export default TeamSwiperPortraits;
